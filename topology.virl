@@ -94,7 +94,7 @@ interface GigabitEthernet3
   ip ospf cost 1
   no shutdown
 !
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 10.94.241.225
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 {{ gateway }}
 !
 router ospf 1
   log-adjacency-changes
@@ -208,7 +208,7 @@ interface GigabitEthernet6
   ip ospf cost 1
   no shutdown
 !
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 10.94.241.225
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 {{ gateway }}
 !
 router ospf 1
   log-adjacency-changes
@@ -313,7 +313,7 @@ interface GigabitEthernet3
   ip ospf cost 1
   no shutdown
 !
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 10.94.241.225
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 {{ gateway }}
 !
 router ospf 1
   log-adjacency-changes
@@ -417,7 +417,7 @@ interface GigabitEthernet3
   no shutdown
 !
 !
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 10.94.241.225
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 {{ gateway }}
 !
 router ospf 1
   log-adjacency-changes
@@ -518,7 +518,7 @@ interface GigabitEthernet3
   ip ospf cost 1
   no shutdown
 !
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 10.94.241.225
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 {{ gateway }}
 !
 router ospf 1
   log-adjacency-changes
@@ -619,7 +619,7 @@ interface GigabitEthernet3
   ip ospf cost 1
   no shutdown
 !
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 10.94.241.225
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 {{ gateway }}
 !
 router ospf 1
   log-adjacency-changes
